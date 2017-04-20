@@ -1,0 +1,17 @@
+<snippet>
+    <content><![CDATA[
+\$this->db->select('pan_tz_zhubo.zid, pan_tz_zhubo.mid, nickname, avatar, sid, sp_id');
+\$this->db->where('sid', \$sid);
+\$this->db->join('tz_zhubo', 'tz_zhubo.zid = tz_service.zid');
+\$this->db->order_by('tz_zhubo.zid', 'desc');
+\$this->db->limit(10, 0);
+\$query = \$this->db->get_where('tz_service');
+\$service = \$query->row_array(0);
+]]></content>
+    <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+    <tabTrigger>ci-db-read</tabTrigger>
+    <!-- Optional: Set a scope to limit where the snippet will trigger -->
+    <scope>source.php</scope>
+    <!-- Used when showing the snippet in the Snippets menu. -->
+    <description>CodeIgniter database read</description>
+</snippet>

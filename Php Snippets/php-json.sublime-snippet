@@ -1,0 +1,34 @@
+<snippet>
+    <content><![CDATA[
+/**
+ * 响应JSON/JSONP格式数据
+ *
+ * @param  integer \$code [返回代码：0 成功 1 失败]
+ * @param  string  \$msg  [错误信息]
+ * @param  array   \$data [返回数据]
+ * @return [type]        [description]
+ */
+private function echoJson(\$code = 0, \$msg = '', \$data = []) {
+    header('Content-type: application/json');
+    \$result = [
+        'code'  => \$code,
+        'msg'   => \$msg,
+        'data'  => \$data,
+    ];
+    \$json = json_encode(\$result);
+
+    // JSONP
+    if (!empty(\$_GET['callback'])) {
+        \$json = \$_GET['callback'] . "(" . \$json . ")";
+    }
+    echo \$json;
+    exit(0);
+}
+]]></content>
+    <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+    <tabTrigger>php-json</tabTrigger>
+    <!-- Optional: Set a scope to limit where the snippet will trigger -->
+    <scope>source.php</scope>
+    <!-- Used when showing the snippet in the Snippets menu. -->
+    <description>json data structure</description>
+</snippet>

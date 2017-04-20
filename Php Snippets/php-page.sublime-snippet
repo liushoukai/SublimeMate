@@ -1,0 +1,14 @@
+<snippet>
+    <content><![CDATA[
+\$page     = 1;
+\$pageSize = 1;
+\$page     = filter_var(\$page    , FILTER_VALIDATE_INT, ['options' => ['default' =>  1, 'min_range' => 1, 'max_range' => PHP_INT_MAX]]);
+\$pageSize = filter_var(\$pageSize, FILTER_VALIDATE_INT, ['options' => ['default' => 10, 'min_range' => 1, 'max_range' => PHP_INT_MAX]]);
+]]></content>
+    <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+    <tabTrigger>php-page</tabTrigger>
+    <!-- Optional: Set a scope to limit where the snippet will trigger -->
+    <scope>source.php</scope>
+    <!-- Used when showing the snippet in the Snippets menu. -->
+    <description>parse pagination params</description>
+</snippet>

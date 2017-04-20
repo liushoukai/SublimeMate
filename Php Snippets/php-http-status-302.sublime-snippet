@@ -1,0 +1,12 @@
+<snippet>
+    <content><![CDATA[
+header("Location: http://www.example.com/", true, 302);
+exit;
+]]></content>
+    <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+    <tabTrigger>php-http-status-302</tabTrigger>
+    <!-- Optional: Set a scope to limit where the snippet will trigger -->
+    <scope>source.php</scope>
+    <!-- Used when showing the snippet in the Snippets menu. -->
+    <description>response http status code 302</description>
+</snippet>

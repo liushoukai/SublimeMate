@@ -1,0 +1,18 @@
+{
+    "installed_packages":
+    [
+        "Compare Side-By-Side",
+        "DocBlockr",
+        "Emmet",
+        "Emmet Css Snippets",
+        "ProjectManager",
+        "Git",
+        "SublimeCodeIntel",
+        "SublimeLinter",
+        "SublimeLinter-json",
+        "SublimeLinter-csslint",
+        "SublimeLinter-jshint",
+        "TortoiseSVN",
+        "VBScript"
+    ]
+}

@@ -1,0 +1,13 @@
+<snippet>
+    <content><![CDATA[
+\$arr = array_combine(array_map(function(\$item) {
+    return \$item['key'];
+}, \$arr), array_values(\$arr));
+]]></content>
+    <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+    <tabTrigger>php-rekey</tabTrigger>
+    <!-- Optional: Set a scope to limit where the snippet will trigger -->
+    <scope>source.php</scope>
+    <!-- Used when showing the snippet in the Snippets menu. -->
+    <description>convert a simple array to an associative array</description>
+</snippet>

@@ -1,0 +1,18 @@
+[
+    // Select Lines
+    { "keys": ["ctrl+shift+up"], "command": "select_lines", "args": {"forward": false} },
+    { "keys": ["ctrl+shift+down"], "command": "select_lines", "args": {"forward": true} },
+
+    // Join Lines
+    { "keys": ["ctrl+j"], "command": "join_lines" },
+
+    // Copy Lines
+    { "keys": ["ctrl+alt+down"], "command": "duplicate_line" },
+
+    // Remove Lines
+    { "keys": ["ctrl+d"], "command": "run_macro_file", "args": {"file": "res://Packages/Default/Delete Line.sublime-macro"} },
+
+    // Swap Lines
+    { "keys": ["alt+up"], "command": "swap_line_up" },
+    { "keys": ["alt+down"], "command": "swap_line_down" }
+]

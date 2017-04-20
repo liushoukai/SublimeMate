@@ -1,0 +1,11 @@
+<snippet>
+    <content><![CDATA[
+\$this->db->update('tz_order', ['order_status' => 3, 'status3_time' => date('Y-m-d H:i:s')], ['order_id' => \$order_id]);
+]]></content>
+    <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+    <tabTrigger>ci-db-update</tabTrigger>
+    <!-- Optional: Set a scope to limit where the snippet will trigger -->
+    <scope>source.php</scope>
+    <!-- Used when showing the snippet in the Snippets menu. -->
+    <description>CodeIgniter database update</description>
+</snippet>

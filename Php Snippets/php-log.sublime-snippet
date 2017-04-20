@@ -1,0 +1,11 @@
+<snippet>
+    <content><![CDATA[
+Log::err(sprintf("params invalid, function: %s, params: %s.", __FUNCTION__, json_encode(func_get_args()));
+]]></content>
+    <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+    <tabTrigger>php-log</tabTrigger>
+    <!-- Optional: Set a scope to limit where the snippet will trigger -->
+    <scope>source.php</scope>
+    <!-- Used when showing the snippet in the Snippets menu. -->
+    <description>handler error in service layer</description>
+</snippet>

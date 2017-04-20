@@ -1,0 +1,13 @@
+{
+    "file_regex": "js$",
+    "selector": "source.js",
+    "windows": {
+        "cmd": ["${packages}\\..\\..\\..\\nodejs\\node.exe", "$file"]
+    },
+    "linux": {
+    	"cmd": ["/usr/local/node/bin/node", "$file"]
+    },
+    "osx": {
+        "cmd": ["", "$file"]
+    }
+}

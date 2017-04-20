@@ -1,0 +1,26 @@
+<snippet>
+    <content><![CDATA[
+CREATE TABLE `j_project` (
+project_id     int(11) UNSIGNED NOT NULL AUTO_INCREMENT COMMENT '项目标识',
+project_name   varchar(16) NOT NULL COMMENT '项目名称',
+project_status tinyint(4) NOT NULL DEFAULT 1 COMMENT '项目状态(0 删除 1 正常)',
+updated_time   timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP COMMENT '更新时间',
+created_time   timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP COMMENT '创建时间',
+PRIMARY KEY (project_id),
+UNIQUE INDEX `uk_j_project_1` (`project_name`) USING BTREE,
+INDEX `idx_j_project_1` (`updated_time`) USING BTREE
+)
+ENGINE=InnoDB
+DEFAULT CHARACTER SET=utf8 COLLATE=utf8_general_ci
+COMMENT='项目信息表'
+AUTO_INCREMENT=1
+ROW_FORMAT=COMPACT
+;
+]]></content>
+    <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+    <tabTrigger>mysql-create-table</tabTrigger>
+    <!-- Optional: Set a scope to limit where the snippet will trigger -->
+    <scope>source.sql</scope>
+    <!-- Used when showing the snippet in the Snippets menu. -->
+    <description>create table</description>
+</snippet>
