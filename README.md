@@ -15,16 +15,14 @@ A bunch of frequently used configs and code snippets for [Sublime Text](https://
 *5.* Restart [Sublime Text](https://sublimetext.com/) and wait amoment, then every done!
 
 ## Recommendation
+- Package Control
 - DocBlockr
 - Compare Side-By-Side
 - Emmet
 - Emmet Css Snippets
 - FileDiffs
 - Git
-- Laravel 5 Snippets
-- Package Control
 - ProjectManager
-- PyV8
 - SideBarEnhancements
 - SublimeCodeIntel
 - SublimeLinter
