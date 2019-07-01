@@ -12,7 +12,6 @@
         "SublimeLinter-json",
         "SublimeLinter-csslint",
         "SublimeLinter-jshint",
-        "TortoiseSVN",
         "VBScript"
     ]
 }

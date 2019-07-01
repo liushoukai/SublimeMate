@@ -30,7 +30,6 @@ A bunch of frequently used configs and code snippets for [Sublime Text](https://
 - SublimeLinter-csslint
 - SublimeLinter-php
 - Phpcs
-- TortoiseSVN
 - VBScript
 
 ## License
