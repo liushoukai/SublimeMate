@@ -12,6 +12,7 @@
         "SublimeLinter-json",
         "SublimeLinter-csslint",
         "SublimeLinter-jshint",
-        "VBScript"
+        "VBScript",
+        "HTML-CSS-JS Prettify"
     ]
 }
