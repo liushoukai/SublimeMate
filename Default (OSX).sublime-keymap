@@ -14,5 +14,8 @@
 
     // Swap Lines
     { "keys": ["alt+up"], "command": "swap_line_up" },
-    { "keys": ["alt+down"], "command": "swap_line_down" }
+    { "keys": ["alt+down"], "command": "swap_line_down" },
+    
+    // HTML-CSS-JS Prettify
+    {"keys":["ctrl+shift+p"],"command":"htmlprettify"}
 ]
