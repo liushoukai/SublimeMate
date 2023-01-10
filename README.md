@@ -12,7 +12,11 @@ A bunch of frequently used configs and code snippets for [Sublime Text](https://
 
 *4.* Clone the repository `git clone git@github.com:liushoukai/MonsterConfig.git` into your packages folder. or Download the [.zip](https://github.com/liushoukai/MonsterConfig/archive/master.zip) file and unzip it into your ST2/3 packages directory.
 
-*5.* Restart [Sublime Text](https://sublimetext.com/) and wait amoment, then every done!
+*5.* Just use Preferences > Package Control > Package Control: Advanced Install Package.Then you can enter a comma-separated package list, e.g.
+
+```Compare Side-By-Side,DocBlockr,Emmet,Emmet Css Snippets,ProjectManager,Git,SublimeCodeIntel,SublimeLinter,SublimeLinter-json,SublimeLinter-csslint,SublimeLinter-jshint,VBScript,HTML-CSS-JS Prettify```
+
+*6.* Restart [Sublime Text](https://sublimetext.com/) and wait amoment, then every done!
 
 ## Recommendation
 - Package Control
