@@ -10,7 +10,7 @@ A bunch of frequently used configs and code snippets for [Sublime Text](https://
 
 *3.* Click the Preferences > Browse Packages… menu
 
-*4.* Clone the repository `git clone git@github.com:liushoukai/MonsterConfig.git` into your packages folder. or Download the [.zip](https://github.com/liushoukai/MonsterConfig/archive/master.zip) file and unzip it into your ST2/3 packages directory.
+*4.* Clone the repository `git clone git@github.com:liushoukai/SublimeMate.git` into your packages folder. or Download the [.zip](https://github.com/liushoukai/SublimeMate/archive/refs/tags/v1.0.0.zip) file and unzip it into your ST2/3 packages directory.
 
 *5.* Just use Preferences > Package Control > Package Control: Advanced Install Package.Then you can enter a comma-separated package list, e.g.
 
@@ -33,7 +33,6 @@ A bunch of frequently used configs and code snippets for [Sublime Text](https://
 - SublimeLinter-jshint
 - SublimeLinter-csslint
 - SublimeLinter-php
-- Phpcs
 - VBScript
 
 ## License
