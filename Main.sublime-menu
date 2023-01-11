@@ -1,0 +1,22 @@
+[{
+  "id": "preferences",
+  "children": [{
+    "id": "package-settings",
+    "children": [{
+      "caption": "SublimeMate",
+      "children": [{
+        "caption": "Main",
+        "command": "sublime_mate"
+      }, {
+        "caption": "Help",
+        "command": "sublime_mate_open_help"
+      }, {
+        "caption": "File a bug",
+        "command": "sublime_mate_open_bug_file"
+      }, {
+        "caption": "What's new in v2.0?",
+        "command": "sublime_mate_open_release_notes"
+      }]
+    }]
+  }]
+}]
